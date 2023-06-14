@@ -15,7 +15,7 @@ jobs:
                   heroku_api_key: ${{secrets.HEROKU_API_KEY}}
                   heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
                   heroku_email: ${{secrets.HEROKU_EMAIL}}
-                  procfile: "web: npm start:heroku"
+                  procfile: "web: npm run start:heroku"
               env:
                   # Don't forget to prefix variables in your scripts with `HD_`!
                   # * Not required at the beginning of the environment variable to be registered on the Github side.
