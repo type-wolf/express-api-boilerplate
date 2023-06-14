@@ -1,5 +1,11 @@
 # README
 
+## Clone
+
+```bash
+git clone -b heroku-auto-deploy https://github.com/ito-rui/express-api-boilerplate.git my-repo
+```
+
 ## How to start WebServer
 
 -   ### Dev Environment
